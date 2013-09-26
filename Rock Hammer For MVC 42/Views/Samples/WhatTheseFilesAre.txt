@@ -1,0 +1,7 @@
+﻿These are like the hammer for mac versions of mvc partial views. 
+Where possible, I have created corresponding mvc partials in the Partials folder.
+Add your own partial pages when you need to use some code from this set of Samples.
+Follow the implementation of the files in the Partials folder, noting how they are called in Layout.cshtml
+
+_scripts.html has been made into _scripts.cshtml BUT ALSO a bundle in BundleConfig.cs
+The default implementation of Layout.cshtml uses the bundleconfig version of scripts.html

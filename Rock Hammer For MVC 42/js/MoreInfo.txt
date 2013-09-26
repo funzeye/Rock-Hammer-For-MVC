@@ -1,0 +1,2 @@
+﻿Some js files have been moved to the Scripts Folder -Modernizr and JQuery - this is so they can be updated using Nuget to the latest versions.
+Note: You should not specify any js files directly in your Views, you should go through the BundleConfig.cs class where possible

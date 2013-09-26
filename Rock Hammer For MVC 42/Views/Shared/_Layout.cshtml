@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+@Html.Partial("~/Views/Partials/Utilities/_conditional.cshtml")
+<head>
+    <title>@ViewBag.Title</title>
+    @Html.Partial("~/Views/Partials/Head/_head-meta.cshtml")
+   
+    <!-- for all browsers -->
+    @Styles.Render("~/Content/Scss")
+
+    <!-- javascript -->
+    @Scripts.Render("~/bundles/HeadJavaScripts")
+    
+    @Html.Partial("~/Views/Partials/Scripts/_selectivizr.cshtml")
+
+    @Html.Partial("~/Views/Partials/Head/_head-icons.cshtml")
+    @Html.Partial("~/Views/Partials/Head/_head-ios.cshtml")
+    @Html.Partial("~/Views/Partials/Head/_head-ios-startup.cshtml")
+    @Html.Partial("~/Views/Partials/Head/_head-windows.cshtml")
+</head>
+<body>
+    <div class="container">
+        @RenderBody()
+
+        <!-- Final ============================== -->
+        <!-- footer -->
+        @Html.Partial("~/Views/Partials/Footer/_contentInfo.cshtml") 
+    </div><!-- container -->
+    
+    <!-- javascript -->
+    @Scripts.Render("~/bundles/BodyJavaScripts")
+    @RenderSection("scripts", required: false)
+   <!-- google analytics -->
+    @Html.Partial("~/Views/Partials/Scripts/_google-analytics.cshtml") 
+</body>
+</html>

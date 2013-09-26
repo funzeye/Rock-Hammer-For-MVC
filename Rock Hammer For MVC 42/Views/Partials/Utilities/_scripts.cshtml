@@ -1,0 +1,37 @@
+﻿<!-- this is used in conjuntion with head.load to load js files in parallel
+    I'm using bundleconfig.cs file to do this instead - this head.load method might be quicker though
+    -->
+
+<!-- Load libraries -->
+<script>
+head.js(
+    // Place scripts to be loaded here, in the order the need to be executed
+    // Typically libraries are needed first, such as jQuery (as the plugins 
+    // depend on jQuery to execute). The below configuration is what Rock 
+    // Hammer uses, but customise this for your own needs.
+
+    // Plugins    
+    "~/js/vendor/jquery/jquery.scrollTo.min.js",
+    // Load bootstrap-transition first so that nice glides/fades 
+    // etc for the other bootstrap plugins work
+    "~/js/vendor/bootstrap/bootstrap-transition.js",
+    "~/js/vendor/bootstrap/bootstrap-carousel.js",
+    "~/js/vendor/bootstrap/bootstrap-tooltip.js",
+    // Popover has a dependency on tooltip, so make sure and include 
+    // bootstrap-tooltip regardless in order for popovers to work
+    "~/js/vendor/bootstrap/bootstrap-popover.js",
+    "~/js/vendor/bootstrap/bootstrap-modal.js",
+    "~/js/vendor/bootstrap/bootstrap-collapse.js",
+    // Responsive data tables
+    "~/js/rwd-table.js",
+    
+    // Remove any navigation patterns below that arent used
+    // "~/js/nav-patterns/nav-toggle.js",
+    "~/js/nav-patterns/left-nav-flyout.js",
+    "~/js/nav-patterns/responsive-nav.min.js",
+    "~/js/nav-patterns/responsive-breadcrumb.js"
+
+    // Functionality only used by Rock Hammer - this should be removed in production projects!
+    "~/js/navigation-manager.js",
+);
+</script>
