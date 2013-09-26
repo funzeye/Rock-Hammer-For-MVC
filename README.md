@@ -1,7 +1,7 @@
 Rock-Hammer-For-MVC
 ===================
 
-Visual Studio template for MVC 4 project that includes customized Rock Hammer responsive template
+Visual Studio template for MVC 4 project that includes customized Rock Hammer responsive template.
 
 This is a Project Template that implements a C# ASP.NET MVC 4 version of the popular Responsive Framework 'Rock Hammer'.
 
