@@ -9,13 +9,13 @@ Rock Hammer is designed by default to be used with 'Hammer For Mac'. This templa
 
 This version (1.3.3) is based on the latest Rock Hammer GitHub release as of 26-Sept-2013. For detailed instructions on how to use Rock Hammer view http://malarkey.github.io/Rock-Hammer/
 
-It is recommended that users install the VS extension 'Mindscape Web Workbench' to work with the SCSS files.
+It is recommended that users install the VS extension [Mindscape Web Workbench](http://visualstudiogallery.msdn.microsoft.com/2b96d16a-c986-4501-8f97-8008f9db141a) to work with the SCSS files.
 
 This template uses the standard 'Basic' MVC 4 template as a base with the Rock Hammer project library files added to it with some minor alterations.
 
 ##Installation Options
 
-1. Install this Visual Studio Extension (.vsix)
+1. [Install this Visual Studio Extension (.vsix)](http://visualstudiogallery.msdn.microsoft.com/03e3117d-490b-4711-a2a1-cb36f5adc73e)
 2. Create a new project in Visual Studio
 3. Select the Rock Hammer For MVC 4 Project Template from the C# templates
 
@@ -23,9 +23,34 @@ This template uses the standard 'Basic' MVC 4 template as a base with the Rock H
 
  
 
-Please note I am not affiliated with Rock Hammer. Rock Hammer v0.1 is the product of Stuff and Nonsense.
+##Author
 
-This project template was developed by the guys at Hover Craft Studio in Ireland.
+Created by David Kivlehan at Hover Craft Studio. 
+
+Please note both I and this project are not affiliated in any way with Rock Hammer. Rock Hammer v0.1 is the product of Stuff and Nonsense.
+
+David Kivlehan   
+[twitter](http://www.twitter.com/funzeye)  
+[blog](http://hovercraftie.tumblr.com/)  
+
+Hover Craft Studio  
+[website](http://www.hovercraftstudio.ie/) 
+
+##Credits
+
+Rock Hammer
+[website](http://malarkey.github.io/Rock-Hammer/)
+
+Stuff and Nonsense 
+[website](http://stuffandnonsense.co.uk/)  
+
+##License
+
+Apache License. See LICENSE for details.
+
+##Copyright
+
+Copyright (c) 2013 Hover Craft Studio, Ltd.
 
  
 
