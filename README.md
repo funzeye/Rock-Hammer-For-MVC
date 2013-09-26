@@ -15,13 +15,18 @@ This template uses the standard 'Basic' MVC 4 template as a base with the Rock H
 
 ##Installation Options
 
+###The Easy Way
+
 1. [Install this Visual Studio 2012 Extension (.vsix)](http://visualstudiogallery.msdn.microsoft.com/03e3117d-490b-4711-a2a1-cb36f5adc73e)
+Remember you can also install it directly in Visual Studio by going to Extensions and Updates in the Tools menu.
 2. Create a new project in Visual Studio
 3. Select the Rock Hammer For MVC 4 Project Template from the C# templates (.Net 4.5)
 
 4. Recommend doing a "Nuget Package Restore" and/or doing a Build to restore any missing references. Nuget and Project Templates don't seem to get along! 
 
- 
+###The Silly Way
+
+You can of course just download the above files from here and manually place them into your project.
 
 ##Author
 
