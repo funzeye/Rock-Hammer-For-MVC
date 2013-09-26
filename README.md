@@ -58,4 +58,4 @@ Copyright (c) 2013 Hover Craft Studio, Ltd.
 
 V1.3.2: Fixed CSS Bundling Issue
 
-V1.3.2: Added latest Rock Hammer Changes - 26-09-2013
+V1.3.3: Added latest Rock Hammer Changes - 26-09-2013
