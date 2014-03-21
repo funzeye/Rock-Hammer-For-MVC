@@ -9,7 +9,7 @@ Rock Hammer is designed by default to be used with 'Hammer For Mac'. This templa
 
 This version (1.3.3) is based on the latest Rock Hammer GitHub release as of 26-Sept-2013. For detailed instructions on how to use Rock Hammer view http://malarkey.github.io/Rock-Hammer/
 
-It is recommended that users install the VS extension [Mindscape Web Workbench](http://visualstudiogallery.msdn.microsoft.com/2b96d16a-c986-4501-8f97-8008f9db141a) to work with the SCSS files.
+It is recommended that users install the VS extension [Mindscape Web Workbench](http://visualstudiogallery.msdn.microsoft.com/2b96d16a-c986-4501-8f97-8008f9db141a) to work with the SCSS files or the latest Web Essentials Sass support.
 
 This template uses the standard 'Basic' MVC 4 template as a base with the Rock Hammer project library files added to it with some minor alterations.
 
