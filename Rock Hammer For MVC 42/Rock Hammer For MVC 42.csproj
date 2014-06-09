@@ -45,40 +45,33 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.1\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Net.Http.Extensions">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.13\lib\net45\System.Net.Http.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http.Primitives">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.13\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    <Reference Include="System.Net.Http.Formatting, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Web.DynamicData" />
@@ -86,46 +79,48 @@
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.0\lib\net40\System.Web.Optimization.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Routing" />
-    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -275,26 +270,26 @@
     <Content Include="README.md" />
     <Content Include="Content\css\lte-ie8.scss" />
     <Content Include="Content\css\partials\_2x.scss" />
-    <Content Include="Content\css\partials\_bootstrap-accordion.scss" />
-    <Content Include="Content\css\partials\_bootstrap-alerts.scss" />
-    <Content Include="Content\css\partials\_bootstrap-breadcrumbs.scss" />
-    <Content Include="Content\css\partials\_bootstrap-carousel.scss" />
-    <Content Include="Content\css\partials\_bootstrap-form-buttons.scss" />
-    <Content Include="Content\css\partials\_bootstrap-form-help.scss" />
-    <Content Include="Content\css\partials\_bootstrap-form-horizontal.scss" />
-    <Content Include="Content\css\partials\_bootstrap-form-search.scss" />
-    <Content Include="Content\css\partials\_bootstrap-forms.scss" />
-    <Content Include="Content\css\partials\_bootstrap-hero.scss" />
-    <Content Include="Content\css\partials\_bootstrap-media.scss" />
-    <Content Include="Content\css\partials\_bootstrap-modal.scss" />
-    <Content Include="Content\css\partials\_bootstrap-navbar.scss" />
-    <Content Include="Content\css\partials\_bootstrap-navs.scss" />
-    <Content Include="Content\css\partials\_bootstrap-pager.scss" />
-    <Content Include="Content\css\partials\_bootstrap-pagination.scss" />
-    <Content Include="Content\css\partials\_bootstrap-popover.scss" />
-    <Content Include="Content\css\partials\_bootstrap-tables.scss" />
-    <Content Include="Content\css\partials\_bootstrap-tooltip.scss" />
-    <Content Include="Content\css\partials\_bootstrap-wells.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-accordion.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-alerts.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-breadcrumbs.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-carousel.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-form-buttons.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-form-help.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-form-horizontal.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-form-search.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-forms.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-hero.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-media.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-modal.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-navbar.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-navs.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-pager.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-pagination.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-popover.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-tables.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-tooltip.scss" />
+    <Content Include="Content\css\vendor\bootstrap\_bootstrap-wells.scss" />
     <Content Include="Content\css\partials\_colour.scss" />
     <Content Include="Content\css\partials\_elements.scss" />
     <Content Include="Content\css\partials\_furniture.scss" />
@@ -314,60 +309,71 @@
     <Content Include="Content\css\partials\_texture.scss" />
     <Content Include="Content\css\partials\_typography.scss" />
     <Content Include="Content\css\rock-hammer.scss" />
-    <Content Include="Content\css\vendor\bourbon\addons\_button.scss" />
-    <Content Include="Content\css\vendor\bourbon\addons\_clearfix.scss" />
-    <Content Include="Content\css\vendor\bourbon\addons\_font-family.scss" />
-    <Content Include="Content\css\vendor\bourbon\addons\_hide-text.scss" />
-    <Content Include="Content\css\vendor\bourbon\addons\_html5-input-types.scss" />
-    <Content Include="Content\css\vendor\bourbon\addons\_position.scss" />
-    <Content Include="Content\css\vendor\bourbon\addons\_prefixer.scss" />
-    <Content Include="Content\css\vendor\bourbon\addons\_timing-functions.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_animation.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_appearance.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_background-image.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_background-size.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_background.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_border-image.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_border-radius.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_box-shadow.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_box-sizing.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_columns.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_flex-box.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_font-face.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_hidpi-media-query.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_image-rendering.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_inline-block.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_linear-gradient.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_perspective.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_radial-gradient.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_transform.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_transition.scss" />
-    <Content Include="Content\css\vendor\bourbon\css3\_user-select.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_compact.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_deprecated-webkit-gradient.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_flex-grid.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_grid-width.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_linear-gradient.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_modular-scale.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_radial-gradient.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_render-gradients.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_tint-shade.scss" />
-    <Content Include="Content\css\vendor\bourbon\functions\_transition-property-name.scss" />
-    <Content Include="Content\css\vendor\bourbon\_bourbon-deprecated-upcoming.scss" />
-    <Content Include="Content\css\vendor\bourbon\_bourbon.scss" />
     <Content Include="Content\css\_config.scss" />
     <Content Include="Content\css\_imports.scss" />
     <Content Include="humans.txt" />
     <Content Include="ignore.txt" />
+    <Content Include="Content\bourbon\LICENSE" />
+    <Content Include="Content\bourbon\helpers\_shape-size-stripper.scss" />
+    <Content Include="Content\bourbon\helpers\_render-gradients.scss" />
+    <Content Include="Content\bourbon\helpers\_radial-positions-parser.scss" />
+    <Content Include="Content\bourbon\helpers\_radial-arg-parser.scss" />
+    <Content Include="Content\bourbon\helpers\_linear-positions-parser.scss" />
+    <Content Include="Content\bourbon\helpers\_gradient-positions-parser.scss" />
+    <Content Include="Content\bourbon\helpers\_deprecated-webkit-gradient.scss" />
+    <Content Include="Content\bourbon\functions\_transition-property-name.scss" />
+    <Content Include="Content\bourbon\functions\_tint-shade.scss" />
+    <Content Include="Content\bourbon\functions\_radial-gradient.scss" />
+    <Content Include="Content\bourbon\functions\_px-to-em.scss" />
+    <Content Include="Content\bourbon\functions\_modular-scale.scss" />
+    <Content Include="Content\bourbon\functions\_linear-gradient.scss" />
+    <Content Include="Content\bourbon\functions\_grid-width.scss" />
+    <Content Include="Content\bourbon\functions\_flex-grid.scss" />
+    <Content Include="Content\bourbon\functions\_compact.scss" />
+    <Content Include="Content\bourbon\css3\_user-select.scss" />
+    <Content Include="Content\bourbon\css3\_transition.scss" />
+    <Content Include="Content\bourbon\css3\_transform.scss" />
+    <Content Include="Content\bourbon\css3\_radial-gradient.scss" />
+    <Content Include="Content\bourbon\css3\_placeholder.scss" />
+    <Content Include="Content\bourbon\css3\_perspective.scss" />
+    <Content Include="Content\bourbon\css3\_linear-gradient.scss" />
+    <Content Include="Content\bourbon\css3\_keyframes.scss" />
+    <Content Include="Content\bourbon\css3\_inline-block.scss" />
+    <Content Include="Content\bourbon\css3\_image-rendering.scss" />
+    <Content Include="Content\bourbon\css3\_hidpi-media-query.scss" />
+    <Content Include="Content\bourbon\css3\_font-face.scss" />
+    <Content Include="Content\bourbon\css3\_flex-box.scss" />
+    <Content Include="Content\bourbon\css3\_columns.scss" />
+    <Content Include="Content\bourbon\css3\_box-sizing.scss" />
+    <Content Include="Content\bourbon\css3\_border-radius.scss" />
+    <Content Include="Content\bourbon\css3\_border-image.scss" />
+    <Content Include="Content\bourbon\css3\_background-image.scss" />
+    <Content Include="Content\bourbon\css3\_background.scss" />
+    <Content Include="Content\bourbon\css3\_backface-visibility.scss" />
+    <Content Include="Content\bourbon\css3\_appearance.scss" />
+    <Content Include="Content\bourbon\css3\_animation.scss" />
+    <Content Include="Content\bourbon\addons\_triangle.scss" />
+    <Content Include="Content\bourbon\addons\_timing-functions.scss" />
+    <Content Include="Content\bourbon\addons\_size.scss" />
+    <Content Include="Content\bourbon\addons\_retina-image.scss" />
+    <Content Include="Content\bourbon\addons\_prefixer.scss" />
+    <Content Include="Content\bourbon\addons\_position.scss" />
+    <Content Include="Content\bourbon\addons\_html5-input-types.scss" />
+    <Content Include="Content\bourbon\addons\_hide-text.scss" />
+    <Content Include="Content\bourbon\addons\_font-family.scss" />
+    <Content Include="Content\bourbon\addons\_clearfix.scss" />
+    <Content Include="Content\bourbon\addons\_button.scss" />
+    <Content Include="Content\bourbon\_bourbon-deprecated-upcoming.scss" />
+    <Content Include="Content\bourbon\_bourbon.scss" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.0.3.js" />
     <Content Include="Scripts\jquery-2.0.3.min.js" />
     <Content Include="Scripts\jquery-ui-1.10.3.js" />
     <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -449,6 +455,8 @@
     <Content Include="Views\Partials\Footer\_contentInfo.cshtml" />
     <Content Include="Views\Partials\Scripts\_google-analytics.cshtml" />
     <Content Include="Views\Partials\Utilities\_scripts.cshtml" />
+    <Content Include="Views\Partials\Navigation\_navigation-links.cshtml" />
+    <Content Include="Views\Partials\Navigation\_navigation-toggle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -486,11 +494,6 @@
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" />
-  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
-    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
-    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.10\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

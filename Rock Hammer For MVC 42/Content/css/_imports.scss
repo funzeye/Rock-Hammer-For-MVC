@@ -6,7 +6,7 @@ URL: http://stuffandnonsense.co.uk/projects/rock-hammer/
 */
 
 // Import bourbon.io
-@import "vendor/bourbon/bourbon";
+@import "../bourbon/bourbon";
 
 // Define the ‘atmosphere’ of your design in this config file
 @import "config";
@@ -41,28 +41,28 @@ URL: http://stuffandnonsense.co.uk/projects/rock-hammer/
 // references, nor delete the files from your project (you may need
 // them later,) simply comment them out using // 
 
-@import "partials/bootstrap-accordion";
-@import "partials/bootstrap-alerts";
-@import "partials/bootstrap-breadcrumbs";
-@import "partials/bootstrap-carousel";
-@import "partials/bootstrap-hero";
-@import "partials/bootstrap-media";
-@import "partials/bootstrap-modal";
-@import "partials/bootstrap-navs";
-@import "partials/bootstrap-navbar";
-@import "partials/bootstrap-pager";
-@import "partials/bootstrap-pagination";
-@import "partials/bootstrap-popover";
-@import "partials/bootstrap-tables";
-@import "partials/bootstrap-tooltip";
-@import "partials/bootstrap-wells";
-@import "partials/bootstrap-forms";
-@import "partials/bootstrap-form-help";
-@import "partials/bootstrap-form-horizontal";
-@import "partials/bootstrap-form-search";
-@import "partials/bootstrap-form-buttons";
+//@import "vendor/bootstrap/bootstrap-accordion";
+//@import "vendor/bootstrap/bootstrap-alerts";
+//@import "vendor/bootstrap/bootstrap-breadcrumbs";
+//@import "vendor/bootstrap/bootstrap-carousel";
+@import "vendor/bootstrap/bootstrap-hero";
+//@import "vendor/bootstrap/bootstrap-media";
+//@import "vendor/bootstrap/bootstrap-modal";
+//@import "vendor/bootstrap/bootstrap-navs";
+//@import "vendor/bootstrap/bootstrap-navbar";
+//@import "vendor/bootstrap/bootstrap-pager";
+//@import "vendor/bootstrap/bootstrap-pagination";
+//@import "vendor/bootstrap/bootstrap-popover";
+//@import "vendor/bootstrap/bootstrap-tables";
+//@import "vendor/bootstrap/bootstrap-tooltip";
+//@import "vendor/bootstrap/bootstrap-wells";
+//@import "vendor/bootstrap/bootstrap-forms";
+//@import "vendor/bootstrap/bootstrap-form-help";
+//@import "vendor/bootstrap/bootstrap-form-horizontal";
+//@import "vendor/bootstrap/bootstrap-form-search";
+//@import "vendor/bootstrap/bootstrap-form-buttons";
 
-@import "partials/table-rwd";
+//@import "partials/table-rwd";
 
 // Choose a responsive navigation pattern, or add a brand new one
 @import "partials/navigation-toggle";//use either this or navigation-responsive-nav (both are toggle patterns), both work with the navigation-toggle.cshtml partial

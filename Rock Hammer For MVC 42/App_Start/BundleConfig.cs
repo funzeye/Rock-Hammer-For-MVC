@@ -70,6 +70,8 @@ namespace Rock_Hammer_For_MVC_42
 
             bundles.Add(new StyleBundle("~/Content/Scss").Include("~/Content/css/rock-hammer.css"));
 
+            bundles.Add(new StyleBundle("~/Content/Scssie8").Include("~/Content/css/lte-ie8.css"));
+
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
                         "~/Content/themes/base/jquery.ui.resizable.css",

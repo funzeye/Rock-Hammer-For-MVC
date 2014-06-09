@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>bourbon</id>
+    <version>3.1.8</version>
+    <title>bourbon</title>
+    <authors>Phil LaPier, Gabe Berke-Williams, et al</authors>
+    <owners>Phil LaPier, Gabe Berke-Williams, et al</owners>
+    <licenseUrl>http://github.com/thoughtbot/bourbon/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://bourbon.io/</projectUrl>
+    <iconUrl>http://24.media.tumblr.com/avatar_4e95bb50b8d3_128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bourbon is a comprehensive library of sass mixins that are designed to be simple and easy to use. No configuration required.
+The mixins aim to be as vanilla as possible, meaning they should be as close to the original CSS syntax as possible.
+
+The mixins contain vendor specific prefixes for all CSS3 properties for support amongst modern browsers. The prefixes also ensure graceful degradation for older browsers that support only CSS3 prefixed properties. Bourbon uses SCSS syntax.</description>
+    <summary>A simple and lightweight mixin library for Sass.</summary>
+    <releaseNotes />
+    <copyright>Copyright 2013 thoughtbot, inc.</copyright>
+    <language />
+    <tags>sass scss css3 stylesheet mixins vendor-prefixes</tags>
+  </metadata>
+</package>
